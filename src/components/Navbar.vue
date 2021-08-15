@@ -23,9 +23,7 @@
         "
       >
         <div class="mb-2">
-          <span class="font-weight-bold bg-white"
-            ><curr :amt="cartTotal"></curr
-          ></span>
+          <span class="fw-bold bg-white"><curr :amt="cartTotal"></curr></span>
           <button
             @click="toggleCartMenu"
             class="btn btn-sm btn-success ms-3"

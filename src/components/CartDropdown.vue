@@ -3,7 +3,7 @@
     <transition name="dropdown">
       <div
         v-if="displayCart"
-        class="list-group bg-white"
+        class="list-group bg-light border border-dark"
         aria-labelledby="cartDropdown"
       >
         <div v-for="(item, index) in cart" :key="index">
@@ -22,10 +22,11 @@
               -
             </button>
           </div>
+          <hr class="m-0" />
         </div>
         <router-link
           to="/checkout"
-          class="btn btn-sm btn-success text-white float-end me-2 mt-2"
+          class="btn btn-sm btn-success text-white float-end mt-2"
           >Checkout</router-link
         >
       </div>
