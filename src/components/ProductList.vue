@@ -1,4 +1,5 @@
 <template>
+  <!-- Apply the animation to each product when the page initially loads -->
   <transition-group name="products" appear>
     <div
       v-for="item in products"
@@ -23,6 +24,7 @@ export default {
 </script>
 
 <style>
+/* Slide the products whenever the max price changes */
 .products-enter-active,
 .products-leave-active {
   transition: all 0.5s ease-in-out;

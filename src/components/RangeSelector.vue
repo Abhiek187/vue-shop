@@ -19,5 +19,3 @@ export default {
   props: ["products", "modelValue"]
 };
 </script>
-
-<style></style>

@@ -1,5 +1,6 @@
 <template>
   <div class="col-2 m-auto">
+    <!-- TransitionGroup -> ProductList -> Home -> RouterView -->
     <button
       @click="$parent.$parent.$parent.$parent.$emit('addItem', item)"
       class="btn btn-success"
